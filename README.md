@@ -117,7 +117,7 @@ queue.process('test', 2, function(job, done){
 });
 ```
 
-Another cool thing to note about this example (but not required for it to work), is the kue app.  The following line mounts the kue app at the path `/keu`
+Another cool thing to note about this example (but not required for it to work), is the kue app.  The following line mounts the kue app at the path `/kue`
 
 ```
 app.use('/kue', kue.app);
